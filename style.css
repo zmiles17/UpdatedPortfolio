@@ -1,0 +1,44 @@
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 100px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+    border: white solid 15px;
+    height: 1800px;
+    width: auto;
+}
+.One, .Four {
+    grid-column: span 2;
+}
+.One {
+    background-image: url(images/Self-Portrait.JPG);
+    background-size: cover;
+}
+.Two {
+    background-image: url(images/UQAM.JPG);
+    background-size: cover;
+}
+.Three {
+    background-image: url(images/Beer.JPG);
+    background-size: cover;
+}
+.Four {
+    background-image: url(images/553.JPG);
+    background-size: cover;
+}
+.Five {
+    background-image: url(images/Pointe-Claire.JPG);
+    background-size: cover;
+}
+.Six {
+    background-image: url(images/Relaks.JPG);
+    background-size: cover;
+}
