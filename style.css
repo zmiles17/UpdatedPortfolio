@@ -16,7 +16,7 @@ main {
     "four four"
     "five six";
     grid-gap: 20px;
-    border: white solid 15px;
+    margin: 20px;
     height: 1800px;
     width: auto;
 }
