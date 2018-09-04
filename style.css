@@ -1,3 +1,4 @@
+
 header {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
@@ -16,7 +17,7 @@ main {
     "four four"
     "five six";
     grid-gap: 20px;
-    margin: 20px;
+    margin: 20px 10px;
     height: 1800px;
     width: auto;
 }
