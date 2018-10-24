@@ -25,10 +25,11 @@ main {
     grid-column: span 2;
 }
 .One {
-    background-image: url(images/Self-Portrait.JPG);
-    background-size: cover;
+    background-image: url(images/trello-logo-blue.png);
+    background-size: contain;
     grid-area: one;
     background-position: right;
+    background-repeat: no-repeat;
 }
 .Two {
     background-image: url(images/095.JPG);
