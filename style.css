@@ -5,7 +5,6 @@ header {
     font-weight: bold;
     padding-top: 15px;
     padding-left: 15px;
-    padding-bottom: 50px;
 }
 main {
     display: grid;
@@ -25,34 +24,35 @@ main {
     grid-column: span 2;
 }
 .One {
-    background-image: url(images/trello-logo-blue.png);
-    background-size: contain;
+    background-image: url(images/trelloclonegt.herokuapp.com_.png);
+    background-size: cover;
     grid-area: one;
-    background-position: right;
+    background-position: top;
     background-repeat: no-repeat;
 }
 .Two {
-    background-image: url(images/095.JPG);
+    background-image: url(images/screenshot1.png);
     background-size: cover;
     grid-area: two
 }
 .Three {
-    background-image: url(images/Beer.JPG);
+    background-image: url(images/sql-list.jpg);
     background-size: cover;
     grid-area: three;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .Four {
-    background-image: url(images/377.JPG);
+    background-image: url(images/socket-list.png);
     background-size: cover;
     grid-area: four;
     background-position: center;
 }
 .Five {
-    background-image: url(images/Pointe-Claire.JPG);
+    background-image: url(images/simplicity.jpg);
     background-size: cover;
     grid-area: five;
-    background-position: center;
+    background-position: left;
 }
 .Six {
     background-image: url(images/Relaks.JPG);
