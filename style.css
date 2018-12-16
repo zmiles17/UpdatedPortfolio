@@ -20,6 +20,19 @@ main {
     height: 1800px;
     width: auto;
 }
+nav {
+    float: none;
+    margin-right: 15px;
+}
+
+i {
+    color: black;
+}
+
+i:hover {
+    color: blue;
+}
+
 .One, .Four {
     grid-column: span 2;
 }
@@ -72,5 +85,8 @@ main {
         "one one one three three four four"
         "five five six six six four four";
         height: 100vh;
+    }
+    nav {
+        float: right;
     }
 }
