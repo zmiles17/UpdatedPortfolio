@@ -1,10 +1,13 @@
-
+body {
+    height: 100vh;
+}
 header {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bold;
     padding-top: 15px;
     padding-left: 15px;
+    height: auto;
 }
 main {
     display: grid;
@@ -17,7 +20,7 @@ main {
     "five six";
     grid-gap: 20px;
     margin: 20px 10px;
-    height: 1800px;
+    height: 83vh;
     width: auto;
 }
 nav {
@@ -94,7 +97,7 @@ div:hover {
         "one one one two two two two"
         "one one one three three four four"
         "five five six six six four four";
-        height: 100vh;
+        height: 90vh;
     }
     nav {
         float: right;
