@@ -81,10 +81,10 @@ div:hover {
     background-position: left;
 }
 .Six {
-    background-image: url(images/Relaks.JPG);
+    background-image: url(images/myFitCalc.png);
     background-size: cover;
     grid-area: six;
-    background-position: center;
+    background-position: top;
 }
 
 
